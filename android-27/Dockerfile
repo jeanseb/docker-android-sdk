@@ -12,4 +12,4 @@ RUN \
   rm -rf sdk-tools-linux-3859397.zip && \
   mkdir ~/.android && touch ~/.android/repositories.cfg && \
   yes | sdkmanager --licenses && \
-  sdkmanager "build-tools;27.0.2" "platforms;android-27"
+  sdkmanager "build-tools;27.0.3" "platforms;android-27"
