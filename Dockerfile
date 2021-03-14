@@ -16,4 +16,4 @@ ENV PATH $ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH
 RUN yes | sdkmanager --licenses && \
     sdkmanager "build-tools;30.0.3" "platforms;android-30"
 
-WORKDIR /app
+WORKDIR /workspace
